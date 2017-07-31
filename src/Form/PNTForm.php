@@ -67,17 +67,6 @@ class PNTForm extends FormBase {
   /**
     * (@inheritdoc)
     */
-  // public function validateForm(array &$form, FormStateInterface $form_state) {
-  //   $value = $form_state->getValue('email');
-  //   print $value;
-  //   if ($value == !\Drupal::service('email.validator')->isValid($value)) {
-  //     $form_state->setErrorByName('email', t('Not a valid email: %mail', array('%mail' => $value)));
-  //   }
-  // }
-
-  /**
-    * (@inheritdoc)
-    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
     $nids = $form_state->getValue('pnt_class');
     foreach ($nids as $key => $value) {
