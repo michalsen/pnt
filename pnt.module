@@ -10,6 +10,7 @@
  */
 function pnt_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
   if ($form_id == 'rsvp_email_form') {
+    // This will be dynamic, depending on webforms set in the admin page
     $form['#attributes']['class'][] = 'pnt';
   }
 }
