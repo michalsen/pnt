@@ -27,7 +27,7 @@ class PNTForm extends FormBase {
   public function buildForm(array $form, FormStateInterface $form_state) {
 
     $query = \Drupal::entityQuery('node', 'n')
-               ->condition('type', 'webform','LIKE');
+               ->condition('type', 'webform', '=');
 
     $nodes = entity_load_multiple('node', $query->execute());
 
