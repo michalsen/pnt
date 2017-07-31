@@ -1,0 +1,5 @@
+name: PNT
+type: module
+description: 'PNT TEST'
+core: 8.x
+package: SN Custom

@@ -1,0 +1,18 @@
+<?php
+/**
+ *  @file
+ *  PNT Class
+ */
+
+
+/**
+ *  Implements hook_form_alter()
+ */
+function pnt_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+
+  if ($form_id == 'rsvp_email_form') {
+    $form['#attributes']['class'][] = 'pnt';
+
+  }
+
+}

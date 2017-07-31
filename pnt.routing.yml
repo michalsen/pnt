@@ -1,0 +1,8 @@
+pnt.form:
+  path: '/admin/pnt'
+  defaults:
+    _form: '\Drupal\pnt\Form\PNTForm'
+    _title: 'SN PNT Class'
+  requirements:
+    _permission: 'access content'
+
