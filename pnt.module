@@ -13,6 +13,8 @@ function pnt_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state
   $set_pnt = \Drupal::state()->get('pnt_webforms');
   $pnt_webforms = json_decode($set_pnt);
 
+  //dpm($form);
+
   // So, this is a bit sloppy :(
   // basically trying to get the nid of the webform
   // w/o having to grab it from the URL, just in case

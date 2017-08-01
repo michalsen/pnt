@@ -4,5 +4,5 @@ pnt.form:
     _form: '\Drupal\pnt\Form\PNTForm'
     _title: 'SN PNT Class'
   requirements:
-    _permission: 'access content'
+    _permission: 'admin content'
 
