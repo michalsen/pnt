@@ -26,3 +26,6 @@ foreach (\Drupal::routeMatch()->getParameters() as $param) {
 But this is taking it from the route, which I did not wish to.
 
 Open to ideas!
+
+I guess a way around this is to save the webform id instead of the nid, and
+match that way...
