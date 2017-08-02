@@ -1,3 +1,19 @@
+8.2.17
+
+So there is a bit of sloppiness here in regards to getting the nid of
+the webform in the pnt.module file.
+
+As I type this I am wondering if I am looking for the wrong item.
+
+Maybe it shouldn't be the nid, because of revisions.
+Maybe I should be looking at the form_id.
+
+Back to the drawing board....
+
+
+
+
+
 7.31.17
 
 First day for the 100th aniversary for the Battle of Passchendaele, and here I

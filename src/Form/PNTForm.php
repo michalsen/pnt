@@ -33,7 +33,7 @@ class PNTForm extends FormBase {
 
     foreach ($nodes as $nid => $value) {
       $node = Node::load($nid);
-      dpm($node);
+      // dpm($node);
       $checkboxes[$node->id()] = $node->title->value;
     }
 
