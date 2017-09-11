@@ -1,0 +1,13 @@
+{
+    "name": "emichalsen/pnt",
+    "description": "SN pnt class",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Eric Michalsen",
+            "email": "eric.michalsen@gmail.com"
+        }
+    ],
+    "require": {}
+}
