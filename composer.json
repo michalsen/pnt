@@ -1,7 +1,7 @@
 {
     "name": "emichalsen/pnt",
-    "description": "SN pnt class",
-    "type": "project",
+    "description": "SN pnt class adder",
+    "type": "drupal-module",
     "license": "GPL",
     "authors": [
         {
@@ -9,5 +9,6 @@
             "email": "eric.michalsen@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }
